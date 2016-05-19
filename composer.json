@@ -14,6 +14,9 @@
         ],
         "post-install-cmd": [
             "echo post-install-cmd"
+        ],
+        "post-package-install": [
+			"echo post-package-install"
         ]
     }
 }
