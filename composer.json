@@ -11,11 +11,6 @@
     "require": {
         "composer/installers": "~1.0"
     },
-    "extra": {
-        "installer-paths": {
-            "/lib": ["vendor/mars/composer-test/lib"]
-        }
-    },
     "scripts": {
         "post-update-cmd": [
             "echo post-update-cmd"
