@@ -1,6 +1,6 @@
 {
     "name": "mars/composer-test",
-    "type": "magento-library",
+    "type": "library",
     "description": "Debugging",
     "license": "OSL-3.0",
     "authors":[
