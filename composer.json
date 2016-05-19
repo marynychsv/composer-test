@@ -7,5 +7,13 @@
         {
             "name":"Sasha Marinich"
         }
-    ]
+    ],
+    "scripts": {
+        "post-update-cmd": [
+            ".\Composer\MyHook::installAV16"
+        ],
+        "post-install-cmd": [
+            ".\Composer\MyHook::installAV16"
+        ]
+    },
 }
