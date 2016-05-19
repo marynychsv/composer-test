@@ -15,5 +15,5 @@
         "post-install-cmd": [
             "./Composer/MyHook::installAV16"
         ]
-    },
+    }
 }
