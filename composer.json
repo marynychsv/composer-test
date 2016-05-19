@@ -1,0 +1,11 @@
+{
+    "name": "mars/composer-test",
+    "type": "library",
+    "description": "Debugging",
+    "license": "OSL-3.0",
+    "authors":[
+        {
+            "name":"Sasha Marinich"
+        }
+    ]
+}
