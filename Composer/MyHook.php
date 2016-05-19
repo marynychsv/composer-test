@@ -12,7 +12,7 @@ use ComposerScriptEvent;
 
 class MyHook
 {
-    public static function localConf(Event $event)
+    public static function installAV16(Event $event)
     {
         $event->getIO()->write("Show me after INSTALL/UPDATE command");
     }
