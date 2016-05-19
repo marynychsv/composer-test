@@ -1,6 +1,6 @@
 {
     "name": "mars/composer-test",
-    "type": "library",
+    "type": "magento-library",
     "description": "Debugging",
     "license": "OSL-3.0",
     "authors":[
@@ -8,6 +8,14 @@
             "name":"Sasha Marinich"
         }
     ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-paths": {
+            "/lib": ["vendor/mars/composer-test/lib"]
+        }
+    },
     "scripts": {
         "post-update-cmd": [
             "echo post-update-cmd"
