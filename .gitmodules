@@ -1,0 +1,3 @@
+[submodule "lib/OnePica"]
+	path = lib/OnePica
+	url = https://github.com/onepica/avatax16-lib
