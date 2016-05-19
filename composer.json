@@ -10,10 +10,10 @@
     ],
     "scripts": {
         "post-update-cmd": [
-            "echo hello"
+            "echo post-update-cmd"
         ],
         "post-install-cmd": [
-            "echo hello"
+            "echo post-install-cmd"
         ]
     }
 }
